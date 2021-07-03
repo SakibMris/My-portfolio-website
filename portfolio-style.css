@@ -3,19 +3,21 @@ h1{
 }
 body{
     font-family: 'Otomanopee One', sans-serif;
+    margin: 0;
 }
 .kingsman{
     color: orange;
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
     padding-left: 10% ;
 }
 .half-width img{
-    margin-top: 50px;
+    margin-top: 40px;
     width: 80%;
 }
 .hire-me-button{
@@ -25,4 +27,27 @@ section{
     font-weight: 700;
     padding: 10px 40px ;
     border-radius: 5px;
+}
+#top{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+.dream{
+    color: orange;
+}
+.image-2 img{
+    width: 80% ;
+    padding: 100px;
+}
+#middle{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.para-2{
+    width: 50%;
+    padding: 150px;
 }
