@@ -14,7 +14,7 @@ body{
 }
 .half-width{
     width: 50%;
-    padding-left: 10% ;
+    padding-left: 10%;
 }
 .half-width img{
     margin-top: 40px;
@@ -49,4 +49,28 @@ body{
 }
 #ex{
     text-align: center;
+}
+.box{
+    box-shadow: 10px 10px 20px tomato;
+    margin-left: 5% ;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 10px;
+}
+#bottom{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    
+}
+#ex-1{
+    border-left: 10px solid transparent;
+    border-image: linear-gradient(tomato,orange) 10
+}
+#ex-2{
+    border-left: 10px solid transparent;
+    border-image: linear-gradient(blue,red) 10
+}
+.footer{
+    text-align: center;
+    text-decoration: none;
 }
