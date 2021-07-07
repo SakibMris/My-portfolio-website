@@ -64,11 +64,13 @@ body{
 }
 #ex-1{
     border-left: 10px solid transparent;
-    border-image: linear-gradient(tomato,orange) 10
+    border-image: linear-gradient(tomato,orange);
+    border-image-slice: 1;
 }
 #ex-2{
     border-left: 10px solid transparent;
-    border-image: linear-gradient(blue,red) 10
+    border-image: linear-gradient(blue,red);
+    border-image-slice: 1;
 }
 .footer{
     text-align: center;
